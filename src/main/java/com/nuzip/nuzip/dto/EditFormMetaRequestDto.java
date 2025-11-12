@@ -5,6 +5,7 @@ import lombok.Getter;
 import java.time.LocalDate;
 import java.util.Set;
 
+// 회원정보 수정 요청(Request)
 @Getter
 public class EditFormMetaRequestDto {
     private String username;
